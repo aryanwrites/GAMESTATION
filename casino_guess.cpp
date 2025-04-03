@@ -99,20 +99,20 @@ public:
     }
 };
 
-// Main function to manage the game loop
-int main() {
-    srand(static_cast<unsigned int>(time(0)));  // Seed the random number generator
+// // Main function to manage the game loop
+// int main() {
+//     srand(static_cast<unsigned int>(time(0)));  // Seed the random number generator
 
-    char playAgain;
-    do {
-        CasinoGame game;
-        game.setDifficulty();
-        game.playGame();
+//     char playAgain;
+//     do {
+//         CasinoGame game;
+//         game.setDifficulty();
+//         game.playGame();
 
-        cout << "\nDo you want to play again? (y/n): ";
-        cin >> playAgain;
-    } while (playAgain == 'y' || playAgain == 'Y');
+//         cout << "\nDo you want to play again? (y/n): ";
+//         cin >> playAgain;
+//     } while (playAgain == 'y' || playAgain == 'Y');
 
-    cout << "Thanks for playing the Casino Number Guessing Game!" << endl;
-    return 0;
-}
+//     cout << "Thanks for playing the Casino Number Guessing Game!" << endl;
+//     return 0;
+// }

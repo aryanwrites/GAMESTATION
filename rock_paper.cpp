@@ -85,19 +85,19 @@ public:
     }
 };
 
-// Main function
-int main() {
-    srand(static_cast<unsigned int>(time(0)));  // Seed the random number generator
+// // Main function
+// int main() {
+//     srand(static_cast<unsigned int>(time(0)));  // Seed the random number generator
 
-    char playAgain;
-    RockPaperScissorsGame game;
+//     char playAgain;
+//     RockPaperScissorsGame game;
 
-    do {
-        game.play();
-        cout << "\nDo you want to play again? (y/n): ";
-        cin >> playAgain;
-    } while (playAgain == 'y' || playAgain == 'Y');
+//     do {
+//         game.play();
+//         cout << "\nDo you want to play again? (y/n): ";
+//         cin >> playAgain;
+//     } while (playAgain == 'y' || playAgain == 'Y');
 
-    cout << "Thanks for playing Rock-Paper-Scissors!" << endl;
-    return 0;
-}
+//     cout << "Thanks for playing Rock-Paper-Scissors!" << endl;
+//     return 0;
+// }
